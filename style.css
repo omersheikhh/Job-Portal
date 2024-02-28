@@ -9,7 +9,6 @@
     align-items: center;
     background-color: #070707;
     height: 5vh;
-    min-width: 100vw;
     position: sticky;
     top: 0px;
     font-family: "Poppins", sans-serif;
@@ -18,7 +17,6 @@
 
 .searchbar {
     height: 15vh;
-    min-width:100vw;
     background-color: #070707;
     display: flex;
     flex-direction: column;
@@ -43,13 +41,21 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0% 2%;
-    background-color:#fff;
+    background-color: #fff;
     border-radius: 15px;
     height: 40%;
     width: 94%;
    
 }
+
+.search input{
+    height: 40%;
+    width: 44vw;
+}
+
+/* .search ::placeholder{
+    padding: 0rem 1rem;
+} */
 
 .search button {
     position: absolute;
@@ -67,42 +73,37 @@
 
 }
 
-
-
-
-
-
 .nav {
     background-color: rgb(255, 255, 255);
     min-width:19rem;
     height: 100%;
-    width: 24vw;
+  
 }
 
 .container {
-    height: 100vh;
     width: 100vw;
     display: flex;
 }
 
 .cardcontainer {
-    background-color:#022242;
+    padding: 1rem;
+    background-color:#E3FFF0;
     height: 100%;
-    min-width: 74vw;
     display: flex;
     flex-flow: wrap;
     justify-content: space-evenly;
     align-items: center;
+    gap: 2rem;
 }
 
 .card {
     background-color: #fff;
-    height: 25%;
-    width: 16vw; 
+    height: 23vh;
+    width: 22vw; 
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content:space-between;
+    justify-content:space-around;
     border-radius: 10px;
     border: none;
     min-width: 18rem;
@@ -173,16 +174,13 @@
 }
 
 .mall2  button {
-    margin-left: 5px;
     border: none;
     border-radius: 10px;
     padding: 0.6rem 0.6rem;
     cursor: pointer;
     font-family: "Poppins", sans-serif;
-
-
-
 }
+
 
 .FullTime {
     background-color: #E3FFF0;
@@ -194,7 +192,7 @@
 }
 
 .FullTime1 {
-    colour:#935216;
+    color:#935216;
     background-color:#FFEDE3;
     font-weight: 600;
     cursor: pointer;
