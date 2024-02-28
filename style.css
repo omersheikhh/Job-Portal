@@ -90,11 +90,9 @@
     height: 100%;
     min-width: 74vw;
     display: flex;
-    flex-wrap: wrap;
+    flex-flow: wrap;
     justify-content: space-evenly;
     align-items: center;
-    padding: 0% 1%;
-
 }
 
 .card {
@@ -109,6 +107,7 @@
     border: none;
     min-width: 18rem;
     font-family: "Poppins", sans-serif;
+    margin: ;
 }
 
 
