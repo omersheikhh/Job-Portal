@@ -53,10 +53,6 @@
     width: 44vw;
 }
 
-/* .search ::placeholder{
-    padding: 0rem 1rem;
-} */
-
 .search button {
     position: absolute;
     align-self: center;
