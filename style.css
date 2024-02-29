@@ -46,6 +46,7 @@
     border-radius: 15px;
     height: 40%;
     width: 94%;
+    padding: 0rem 1rem;
    
 }
 
@@ -55,14 +56,10 @@
 }
 
 .search button {
-    position: absolute;
-    align-self: center;
-    right: 5%;
-    padding: 0.2rem 0rem;
     height: 4vh;
-    width: 8vw;
+    width: 10vw;
     border: none;
-    border-radius: 15px;
+    border-radius: 14px;
     background-color: #2a85ff;
     color: #fff;
     font-weight: 600;
@@ -240,27 +237,16 @@
     
     .searchbar input {
         width: 10vw;
-        padding: 1rem 0rem;
-        border: none;
-        outline: none;
-        font-family: "Poppins", sans-serif;
     }
 
     .searchbar h1 {
         font-size: 1.8rem;
-
     }
 
-    
-    
     .search {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: #fff;
-        border-radius: 15px;
         width: 80vw;
         height: 4vh;
+        margin-top: 0.7rem;
        
     }
     
@@ -269,18 +255,15 @@
     }
     
     .search button {
-        position: absolute;
-        align-self: center;
-        right: 5%;
-        padding: 0.2rem 0rem;
-        height: 4vh;
-        width: 8vw;
-        border: none;
-        border-radius: 15px;
-        background-color: #2a85ff;
-        color: #fff;
-        font-weight: 600;
+    
+        height: 3vh;
+        width: 12vw;
+        
     }
     
+    .search ::placeholder{
+        font-size: 0.7rem;
+        align-self: center;
+    }
 
 }
