@@ -215,6 +215,8 @@
 
 }
 
+
+
 @media only screen and (max-width: 450px) {
 
     .nav {
@@ -224,14 +226,7 @@
     
     .searchbar {
         width: 100vw;
-        height: 15vh;
-        background-color: #070707;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        font-family: "Poppins", sans-serif;
-    
+        height: 20vh;
     
     }
     
@@ -264,6 +259,54 @@
     .search ::placeholder{
         font-size: 0.7rem;
         align-self: center;
+    }
+
+}
+
+@media only screen and (max-width: 350px) {
+
+    .nav {
+       display:none ;
+    }
+
+    
+    .searchbar {
+        width: 100vw;
+        height: 20vh;
+    
+    }
+    
+    .searchbar input {
+        width: 10vw;
+    }
+
+    .searchbar h1 {
+        font-size: 1.2rem;
+        
+    }
+
+    .search {
+        width: 80vw;
+        height: 4vh;
+        margin-top: 0.7rem;
+       
+    }
+    
+    .search input{
+       
+        width: 40%;
+        padding: 0;
+    }
+    
+    .search button {
+        height: 2.8vh;
+        width: 12vw;
+        font-size: 0.6rem;
+        
+    }
+    
+    .search ::placeholder{
+        font-size: 0.5rem;
     }
 
 }
