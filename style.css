@@ -16,6 +16,7 @@
 }
 
 .searchbar {
+    width: 100vw;
     height: 15vh;
     background-color: #070707;
     display: flex;
@@ -65,15 +66,12 @@
     background-color: #2a85ff;
     color: #fff;
     font-weight: 600;
-    
-
 }
 
 .nav {
     background-color: rgb(255, 255, 255);
     min-width:19rem;
     height: 100%;
-  
 }
 
 .container {
@@ -217,5 +215,72 @@
     font-size: 0.7rem;
     font-family: "Poppins", sans-serif;
 
+
+}
+
+@media only screen and (max-width: 450px) {
+
+    .nav {
+       display: none;
+    }
+
+    
+    .searchbar {
+        width: 100vw;
+        height: 15vh;
+        background-color: #070707;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: "Poppins", sans-serif;
+    
+    
+    }
+    
+    .searchbar input {
+        width: 10vw;
+        padding: 1rem 0rem;
+        border: none;
+        outline: none;
+        font-family: "Poppins", sans-serif;
+    }
+
+    .searchbar h1 {
+        font-size: 1.8rem;
+
+    }
+
+    
+    
+    .search {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #fff;
+        border-radius: 15px;
+        width: 80vw;
+        height: 4vh;
+       
+    }
+    
+    .search input{
+        width: 40%;
+    }
+    
+    .search button {
+        position: absolute;
+        align-self: center;
+        right: 5%;
+        padding: 0.2rem 0rem;
+        height: 4vh;
+        width: 8vw;
+        border: none;
+        border-radius: 15px;
+        background-color: #2a85ff;
+        color: #fff;
+        font-weight: 600;
+    }
+    
 
 }
